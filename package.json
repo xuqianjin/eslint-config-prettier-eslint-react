@@ -2,6 +2,7 @@
   "name": "eslint-config-prettier-eslint-react",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/xuqianjin/eslint-config-prettier-eslint-react#readme",
   "main": "index.js",
   "dependencies": {
     "babel-eslint": "^10.0.3",
