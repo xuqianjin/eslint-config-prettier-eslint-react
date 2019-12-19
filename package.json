@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-prettier-eslint-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-react-native": "^3.7.0",
+    "eslint-plugin-import": "^2.18.1",
+    "eslint-plugin-flowtype": "^3.12.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-config-react-app": "^4.0.1"
+  }
+}
