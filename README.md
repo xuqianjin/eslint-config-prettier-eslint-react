@@ -13,6 +13,11 @@ npm i --save-dev eslint-config-prettier-eslint-react
 
 ```json
 {
-  "extends": ["prettier-eslint-react"]
+  "eslintConfig": {
+    "extends": "prettier-eslint-react"
+  },
+  "env": {
+    "react-native/react-native": true
+  }
 }
 ```
