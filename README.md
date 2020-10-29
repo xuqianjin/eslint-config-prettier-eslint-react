@@ -1,23 +1,28 @@
 # eslint-config-prettier-eslint-react
 
-基于 react standard 的 eslint config
+基于 eslint-config-google 的 eslint config
 
 ## Install
 
 ```
-npm i --save-dev prettier-eslint
-npm i --save-dev eslint-config-prettier-eslint-react
+npm install --save-dev eslint eslint-config-prettier-eslint-react
 ```
 
-在`.eslintrc` 或 `package.json`添加
+```json
+// .eslintrc
+{
+  "extends": "prettier-eslint-react"
+}
+```
 
 ```json
+// .prettierrc
 {
-  "eslintConfig": {
-    "extends": "prettier-eslint-react"
-  },
-  "env": {
-    "react-native/react-native": true
-  }
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "semi": true,
+  "endOfLine": "auto",
+  "bracketSpacing": false
 }
 ```
