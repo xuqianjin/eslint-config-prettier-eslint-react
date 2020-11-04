@@ -23,6 +23,6 @@ npm install --save-dev eslint eslint-config-prettier-eslint-react
   "trailingComma": "es5",
   "semi": true,
   "endOfLine": "auto",
-  "bracketSpacing": false
+  "bracketSpacing": true
 }
 ```

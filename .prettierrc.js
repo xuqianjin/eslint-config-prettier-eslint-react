@@ -4,5 +4,5 @@ module.exports = {
   trailingComma: 'es5',
   semi: true,
   endOfLine: 'auto',
-  bracketSpacing: false,
+  bracketSpacing: true,
 };

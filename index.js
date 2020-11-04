@@ -15,6 +15,7 @@ module.exports = {
     'indent': 'off',
     'react/prop-types': 'warn',
     'max-len': ['error', {code: 100}],
+    'object-curly-spacing': 'off'
   },
   plugins: ['import'],
 };
