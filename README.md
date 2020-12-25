@@ -5,13 +5,15 @@
 ## Install
 
 ```
-npm install --save-dev eslint eslint-config-prettier-eslint-react
+npm install --save-dev eslint eslint-config-prettier-eslint-react babel-eslint
 ```
 
 ```json
 // .eslintrc
 {
-  "extends": "prettier-eslint-react"
+  "extends": "prettier-eslint-react",
+  "parser": "babel-eslint",
+  "rules":{}
 }
 ```
 
